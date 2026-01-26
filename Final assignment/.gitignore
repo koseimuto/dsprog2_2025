@@ -1,0 +1,11 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Database (Gitに上げない！重要)
+db/*.db
+*.sqlite3
+
+# OS files
+.DS_Store
+.ipynb_checkpoints/
