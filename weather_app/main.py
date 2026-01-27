@@ -15,7 +15,7 @@ def main(page: ft.Page):
         page.add(ft.Text(f"DB初期化エラー: {e}", color="red"))
         return
 
-    page.title = "天気予報アプリ (最終版)"
+    page.title = "天気予報アプリ (改良版)"
     page.theme_mode = ft.ThemeMode.DARK
     page.window_width = 1000
     page.window_height = 800
